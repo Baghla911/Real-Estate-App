@@ -5,7 +5,7 @@ import numpy as np
 
 with open('df.pkl', 'rb') as file:
     df = pickle.load(file)
-with open('pipeline .pkl', 'rb') as file:
+with open('pipeline.pkl', 'rb') as file:
     pipeline = pickle.load(file)
 location_df = pickle.load(open('location_distance.pkl', 'rb'))
 cosine_sim1 = pickle.load(open('cosine_sim1.pkl', 'rb'))
